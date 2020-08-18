@@ -3,7 +3,7 @@ function getColorSearch($atts)
   global $post;
   $post_slug = $post->post_name;
   $category_slug = $post_slug;
-  if ($category_slug == "persian-and-modern-rugs") {
+  if ($category_slug == "slug to omit if any") {
     $query_args = array(
       'status'    => 'publish',
       'limit'     => -1,
